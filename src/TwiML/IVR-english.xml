@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="speech dtmf" timeout="3" numDigits="1"
+            action="https://6656edd8baa7.ngrok.io/src/Call/IvrRouting.php?lang=en">
+
+        <Say>For sales, press one</Say>
+        <Say>For latest offers, press two</Say>
+    </Gather>
+    <Say>We didn't receive any input. Goodbye!</Say>
+</Response>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="speech dtmf" timeout="3" numDigits="1" action="https://6656edd8baa7.ngrok.io/src/Call/IvrRouting.php">
+        <Say>Thanks for calling, to continue in English press 1</Say>
+        <Say voice="Polly.Zeina">شُكْرًا لِإِتْصَالُكَ. لِلْمُتَابَعَةِ بِاللُّغَةِ العَرَبيَّةِ , إِضْغِطُ الرَّقْمِ اثْنانِ.</Say>
+    </Gather>
+</Response>

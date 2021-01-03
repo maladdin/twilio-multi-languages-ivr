@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="speech dtmf" timeout="3" numDigits="1"
+            action="https://6656edd8baa7.ngrok.io/src/Call/IvrRouting.php?lang=ar">
+        <Say voice="Polly.Zeina">لِلْمَبِيعَاتِ اضْغَطْ الرَّقْمَ واحِد.
+            <break strength="x-weak" time="1000ms"/>
+        </Say>
+        <Say voice="Polly.Zeina">لِلْعُرُوضِ اضْغَطْ الرَّقْمَ اثْنانِ.
+            <break strength="x-weak" time="1000ms"/>
+        </Say>
+    </Gather>
+</Response>
